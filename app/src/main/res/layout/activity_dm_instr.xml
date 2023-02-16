@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dmInstr"
+    android:background="@drawable/app_bg">
+
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Draw Masters"
+        android:textSize="46dp"
+        android:textColor="#005DD3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rulesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Rules: Player 3 must guess the drawing created by player 1 and   player 2 togther. REMEMBER, work as a team to create a picture easy for player 3 to understand! Teamwork makes the dreamwork! "
+        android:textSize="24dp"
+        android:textColor="#005DD3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_extras2"
+        android:textColor="#005DD3"
+        android:layout_marginBottom="16dp"
+        android:text="Play!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/detailsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:text="Details: "
+        android:textColor="#005DD3"
+        android:textSize="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rules2Text"
+        android:layout_width="460dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:text='When the 1st of the 2 subjects is given, player 1 will go first and get 10 seconds to draw the subject at the top of the screen in the TOP BOX. Once the time is up player 2 will player get 10 seconds to finish the picture. After the 10 seconds runs out, player 3 will have to guess what player 1 and 2 have drawn. Player 1 and 2 are allowed to talk to each other. Make sure you keep the first drawing in the TOP BOX and the second drawing in the BOTTOM!"'
+        android:textColor="#005DD3"
+        android:textSize="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

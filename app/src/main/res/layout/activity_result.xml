@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result"
+    android:background="@drawable/app_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/buttons_extras2"
+            android:text="Done"
+            android:textColor="#005DD3" />
+
+        <EditText
+            android:id="@+id/editInText1"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnRestart"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:gravity="top|left"
+            android:hint="Response"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:maxLines="3"
+            android:minLines="1"
+            android:scrollbars="vertical"
+            android:textColor="#005DD3"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/completeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="Mission Complete!"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#005DD3"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/tvres"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:layout_below="@+id/completeText"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#005DD3"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvres2"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_below="@+id/tvres"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#005DD3"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvres3"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_below="@+id/tvres2"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#005DD3"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvres3"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Well done hero! By correctly recognizing your pet's feelings you have gained empathy ability! This is the ability to understand the feelings of your fellow heroes!"
+            android:textColor="#005DD3"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/qTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="28dp"
+            android:text="fill"
+            android:textColor="#005DD3"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

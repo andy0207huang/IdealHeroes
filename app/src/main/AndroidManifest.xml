@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.icycmain">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Developer"></activity>
+        <activity android:name=".Result"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Questions" />
+        <activity android:name=".PTHowToPlay" />
+        <activity android:name=".Test" />
+        <activity android:name=".LoginSignup"
+            android:theme="@style/generalnotitle"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SuccessScreen"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".dmInstr" />
+        <activity android:name=".HowToPlay" />
+        <activity android:name=".MessageBoard" />
+        <activity android:name=".DrawMasters" />
+        <activity
+            android:name=".LoginMain"
+            android:label="@string/app_name"
+            android:theme="@style/generalnotitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
